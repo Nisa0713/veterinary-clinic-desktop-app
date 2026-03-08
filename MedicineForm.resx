@@ -1,0 +1,192 @@
+﻿namespace VetClinicApp
+{
+    partial class MedicineForm
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MedicineForm));
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            this.txtMedicineName = new System.Windows.Forms.TextBox();
+            this.btnAddMedicine = new System.Windows.Forms.Button();
+            this.dgvMedicines = new System.Windows.Forms.DataGridView();
+            this.txtStock = new System.Windows.Forms.TextBox();
+            this.txtPrice = new System.Windows.Forms.TextBox();
+            this.lblMedicineName = new System.Windows.Forms.Label();
+            this.lblStock = new System.Windows.Forms.Label();
+            this.lblPrice = new System.Windows.Forms.Label();
+            this.btnDeleteMedicine = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvMedicines)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // txtMedicineName
+            // 
+            this.txtMedicineName.Font = new System.Drawing.Font("Consolas", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtMedicineName.Location = new System.Drawing.Point(45, 106);
+            this.txtMedicineName.Name = "txtMedicineName";
+            this.txtMedicineName.Size = new System.Drawing.Size(189, 27);
+            this.txtMedicineName.TabIndex = 1;
+            // 
+            // btnAddMedicine
+            // 
+            this.btnAddMedicine.BackColor = System.Drawing.Color.LightPink;
+            this.btnAddMedicine.FlatAppearance.BorderColor = System.Drawing.Color.Beige;
+            this.btnAddMedicine.FlatAppearance.BorderSize = 0;
+            this.btnAddMedicine.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAddMedicine.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddMedicine.Image = ((System.Drawing.Image)(resources.GetObject("btnAddMedicine.Image")));
+            this.btnAddMedicine.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnAddMedicine.Location = new System.Drawing.Point(59, 311);
+            this.btnAddMedicine.Name = "btnAddMedicine";
+            this.btnAddMedicine.Size = new System.Drawing.Size(152, 35);
+            this.btnAddMedicine.TabIndex = 3;
+            this.btnAddMedicine.Text = "   Add Medicine";
+            this.btnAddMedicine.UseVisualStyleBackColor = false;
+            this.btnAddMedicine.Click += new System.EventHandler(this.btnAddMedicine_Click);
+            // 
+            // dgvMedicines
+            // 
+            this.dgvMedicines.BackgroundColor = System.Drawing.Color.Beige;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.Pink;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Consolas", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvMedicines.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            this.dgvMedicines.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvMedicines.ColumnHeadersVisible = false;
+            this.dgvMedicines.GridColor = System.Drawing.Color.Pink;
+            this.dgvMedicines.Location = new System.Drawing.Point(278, 78);
+            this.dgvMedicines.Name = "dgvMedicines";
+            this.dgvMedicines.Size = new System.Drawing.Size(476, 314);
+            this.dgvMedicines.TabIndex = 4;
+            // 
+            // txtStock
+            // 
+            this.txtStock.Font = new System.Drawing.Font("Consolas", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtStock.Location = new System.Drawing.Point(45, 182);
+            this.txtStock.Name = "txtStock";
+            this.txtStock.Size = new System.Drawing.Size(189, 27);
+            this.txtStock.TabIndex = 5;
+            // 
+            // txtPrice
+            // 
+            this.txtPrice.Font = new System.Drawing.Font("Consolas", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPrice.Location = new System.Drawing.Point(45, 261);
+            this.txtPrice.Name = "txtPrice";
+            this.txtPrice.Size = new System.Drawing.Size(189, 27);
+            this.txtPrice.TabIndex = 6;
+            // 
+            // lblMedicineName
+            // 
+            this.lblMedicineName.AutoSize = true;
+            this.lblMedicineName.BackColor = System.Drawing.Color.Transparent;
+            this.lblMedicineName.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.lblMedicineName.Font = new System.Drawing.Font("Consolas", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMedicineName.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblMedicineName.Location = new System.Drawing.Point(41, 83);
+            this.lblMedicineName.Name = "lblMedicineName";
+            this.lblMedicineName.Size = new System.Drawing.Size(135, 20);
+            this.lblMedicineName.TabIndex = 7;
+            this.lblMedicineName.Text = "Medicine Name:";
+            // 
+            // lblStock
+            // 
+            this.lblStock.AutoSize = true;
+            this.lblStock.BackColor = System.Drawing.Color.Transparent;
+            this.lblStock.Font = new System.Drawing.Font("Consolas", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblStock.Location = new System.Drawing.Point(41, 159);
+            this.lblStock.Name = "lblStock";
+            this.lblStock.Size = new System.Drawing.Size(63, 20);
+            this.lblStock.TabIndex = 8;
+            this.lblStock.Text = "Stock:";
+            // 
+            // lblPrice
+            // 
+            this.lblPrice.AutoSize = true;
+            this.lblPrice.BackColor = System.Drawing.Color.Transparent;
+            this.lblPrice.Font = new System.Drawing.Font("Consolas", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPrice.Location = new System.Drawing.Point(42, 238);
+            this.lblPrice.Name = "lblPrice";
+            this.lblPrice.Size = new System.Drawing.Size(63, 20);
+            this.lblPrice.TabIndex = 9;
+            this.lblPrice.Text = "Price:";
+            // 
+            // btnDeleteMedicine
+            // 
+            this.btnDeleteMedicine.BackColor = System.Drawing.Color.LightPink;
+            this.btnDeleteMedicine.FlatAppearance.BorderColor = System.Drawing.Color.Beige;
+            this.btnDeleteMedicine.FlatAppearance.BorderSize = 0;
+            this.btnDeleteMedicine.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDeleteMedicine.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDeleteMedicine.Image = ((System.Drawing.Image)(resources.GetObject("btnDeleteMedicine.Image")));
+            this.btnDeleteMedicine.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnDeleteMedicine.Location = new System.Drawing.Point(59, 357);
+            this.btnDeleteMedicine.Name = "btnDeleteMedicine";
+            this.btnDeleteMedicine.Size = new System.Drawing.Size(152, 35);
+            this.btnDeleteMedicine.TabIndex = 10;
+            this.btnDeleteMedicine.Text = "   Delete Medicine";
+            this.btnDeleteMedicine.UseVisualStyleBackColor = false;
+            this.btnDeleteMedicine.Click += new System.EventHandler(this.btnDeleteMedicine_Click);
+            // 
+            // MedicineForm
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnDeleteMedicine);
+            this.Controls.Add(this.lblPrice);
+            this.Controls.Add(this.lblStock);
+            this.Controls.Add(this.lblMedicineName);
+            this.Controls.Add(this.txtPrice);
+            this.Controls.Add(this.txtStock);
+            this.Controls.Add(this.dgvMedicines);
+            this.Controls.Add(this.btnAddMedicine);
+            this.Controls.Add(this.txtMedicineName);
+            this.Name = "MedicineForm";
+            this.Text = "MedicineForm";
+            this.Load += new System.EventHandler(this.MedicineForm_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvMedicines)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+        private System.Windows.Forms.TextBox txtMedicineName;
+        private System.Windows.Forms.Button btnAddMedicine;
+        private System.Windows.Forms.DataGridView dgvMedicines;
+        private System.Windows.Forms.TextBox txtStock;
+        private System.Windows.Forms.TextBox txtPrice;
+        private System.Windows.Forms.Label lblMedicineName;
+        private System.Windows.Forms.Label lblStock;
+        private System.Windows.Forms.Label lblPrice;
+        private System.Windows.Forms.Button btnDeleteMedicine;
+    }
+}

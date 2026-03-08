@@ -1,0 +1,335 @@
+﻿namespace VetClinicApp
+{
+    partial class MainForm
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
+            this.btnOwners = new System.Windows.Forms.Button();
+            this.btnPets = new System.Windows.Forms.Button();
+            this.btnAppointments = new System.Windows.Forms.Button();
+            this.btnInvoices = new System.Windows.Forms.Button();
+            this.btnMedicines = new System.Windows.Forms.Button();
+            this.btnVaccinations = new System.Windows.Forms.Button();
+            this.btnDashboard = new System.Windows.Forms.Button();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.lblTitle = new System.Windows.Forms.Label();
+            this.pictureBoxLogo = new System.Windows.Forms.PictureBox();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.panelContainer = new System.Windows.Forms.Panel();
+            this.panel3.SuspendLayout();
+            this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).BeginInit();
+            this.panel1.SuspendLayout();
+            this.panel5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // btnOwners
+            // 
+            this.btnOwners.BackColor = System.Drawing.Color.Pink;
+            this.btnOwners.FlatAppearance.BorderSize = 0;
+            this.btnOwners.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnOwners.Font = new System.Drawing.Font("Consolas", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnOwners.ForeColor = System.Drawing.Color.Beige;
+            this.btnOwners.Image = ((System.Drawing.Image)(resources.GetObject("btnOwners.Image")));
+            this.btnOwners.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnOwners.Location = new System.Drawing.Point(0, 52);
+            this.btnOwners.Margin = new System.Windows.Forms.Padding(4);
+            this.btnOwners.Name = "btnOwners";
+            this.btnOwners.Size = new System.Drawing.Size(227, 52);
+            this.btnOwners.TabIndex = 0;
+            this.btnOwners.Text = "    Owners";
+            this.btnOwners.UseVisualStyleBackColor = false;
+            this.btnOwners.Click += new System.EventHandler(this.btnOwners_Click);
+            // 
+            // btnPets
+            // 
+            this.btnPets.BackColor = System.Drawing.Color.Pink;
+            this.btnPets.FlatAppearance.BorderSize = 0;
+            this.btnPets.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPets.Font = new System.Drawing.Font("Consolas", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPets.ForeColor = System.Drawing.Color.Beige;
+            this.btnPets.Image = ((System.Drawing.Image)(resources.GetObject("btnPets.Image")));
+            this.btnPets.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnPets.Location = new System.Drawing.Point(0, 104);
+            this.btnPets.Margin = new System.Windows.Forms.Padding(4);
+            this.btnPets.Name = "btnPets";
+            this.btnPets.Size = new System.Drawing.Size(227, 52);
+            this.btnPets.TabIndex = 1;
+            this.btnPets.Text = "   Pets";
+            this.btnPets.UseVisualStyleBackColor = false;
+            this.btnPets.Click += new System.EventHandler(this.btnPets_Click);
+            // 
+            // btnAppointments
+            // 
+            this.btnAppointments.BackColor = System.Drawing.Color.Pink;
+            this.btnAppointments.FlatAppearance.BorderSize = 0;
+            this.btnAppointments.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAppointments.Font = new System.Drawing.Font("Consolas", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAppointments.ForeColor = System.Drawing.Color.Beige;
+            this.btnAppointments.Image = ((System.Drawing.Image)(resources.GetObject("btnAppointments.Image")));
+            this.btnAppointments.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnAppointments.Location = new System.Drawing.Point(0, 156);
+            this.btnAppointments.Margin = new System.Windows.Forms.Padding(4);
+            this.btnAppointments.Name = "btnAppointments";
+            this.btnAppointments.Size = new System.Drawing.Size(227, 52);
+            this.btnAppointments.TabIndex = 2;
+            this.btnAppointments.Text = "     Appointments";
+            this.btnAppointments.UseVisualStyleBackColor = false;
+            this.btnAppointments.Click += new System.EventHandler(this.btnAppointments_Click);
+            // 
+            // btnInvoices
+            // 
+            this.btnInvoices.BackColor = System.Drawing.Color.Pink;
+            this.btnInvoices.FlatAppearance.BorderSize = 0;
+            this.btnInvoices.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnInvoices.Font = new System.Drawing.Font("Consolas", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnInvoices.ForeColor = System.Drawing.Color.Beige;
+            this.btnInvoices.Image = ((System.Drawing.Image)(resources.GetObject("btnInvoices.Image")));
+            this.btnInvoices.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnInvoices.Location = new System.Drawing.Point(0, 312);
+            this.btnInvoices.Margin = new System.Windows.Forms.Padding(4);
+            this.btnInvoices.Name = "btnInvoices";
+            this.btnInvoices.Size = new System.Drawing.Size(227, 52);
+            this.btnInvoices.TabIndex = 3;
+            this.btnInvoices.Text = "    Invoices";
+            this.btnInvoices.UseVisualStyleBackColor = false;
+            this.btnInvoices.Click += new System.EventHandler(this.btnInvoices_Click);
+            // 
+            // btnMedicines
+            // 
+            this.btnMedicines.BackColor = System.Drawing.Color.Pink;
+            this.btnMedicines.FlatAppearance.BorderSize = 0;
+            this.btnMedicines.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMedicines.Font = new System.Drawing.Font("Consolas", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMedicines.ForeColor = System.Drawing.Color.Beige;
+            this.btnMedicines.Image = ((System.Drawing.Image)(resources.GetObject("btnMedicines.Image")));
+            this.btnMedicines.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnMedicines.Location = new System.Drawing.Point(0, 208);
+            this.btnMedicines.Margin = new System.Windows.Forms.Padding(4);
+            this.btnMedicines.Name = "btnMedicines";
+            this.btnMedicines.Size = new System.Drawing.Size(227, 52);
+            this.btnMedicines.TabIndex = 4;
+            this.btnMedicines.Text = "    Medicines";
+            this.btnMedicines.UseVisualStyleBackColor = false;
+            this.btnMedicines.Click += new System.EventHandler(this.btnMedicines_Click);
+            // 
+            // btnVaccinations
+            // 
+            this.btnVaccinations.BackColor = System.Drawing.Color.Pink;
+            this.btnVaccinations.FlatAppearance.BorderSize = 0;
+            this.btnVaccinations.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnVaccinations.Font = new System.Drawing.Font("Consolas", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVaccinations.ForeColor = System.Drawing.Color.Beige;
+            this.btnVaccinations.Image = ((System.Drawing.Image)(resources.GetObject("btnVaccinations.Image")));
+            this.btnVaccinations.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnVaccinations.Location = new System.Drawing.Point(0, 260);
+            this.btnVaccinations.Margin = new System.Windows.Forms.Padding(4);
+            this.btnVaccinations.Name = "btnVaccinations";
+            this.btnVaccinations.Size = new System.Drawing.Size(227, 52);
+            this.btnVaccinations.TabIndex = 5;
+            this.btnVaccinations.Text = "    Vaccinations";
+            this.btnVaccinations.UseVisualStyleBackColor = false;
+            this.btnVaccinations.Click += new System.EventHandler(this.btnVaccinations_Click);
+            // 
+            // btnDashboard
+            // 
+            this.btnDashboard.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnDashboard.FlatAppearance.BorderSize = 0;
+            this.btnDashboard.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDashboard.Font = new System.Drawing.Font("Consolas", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDashboard.ForeColor = System.Drawing.Color.Beige;
+            this.btnDashboard.Image = ((System.Drawing.Image)(resources.GetObject("btnDashboard.Image")));
+            this.btnDashboard.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnDashboard.Location = new System.Drawing.Point(0, 0);
+            this.btnDashboard.Margin = new System.Windows.Forms.Padding(4);
+            this.btnDashboard.Name = "btnDashboard";
+            this.btnDashboard.Size = new System.Drawing.Size(227, 52);
+            this.btnDashboard.TabIndex = 6;
+            this.btnDashboard.Text = "     Dashboard";
+            this.btnDashboard.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnDashboard.UseVisualStyleBackColor = true;
+            this.btnDashboard.Click += new System.EventHandler(this.btnDashboard_Click);
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.Pink;
+            this.panel3.Controls.Add(this.btnDashboard);
+            this.panel3.Controls.Add(this.btnInvoices);
+            this.panel3.Controls.Add(this.btnVaccinations);
+            this.panel3.Controls.Add(this.btnOwners);
+            this.panel3.Controls.Add(this.btnMedicines);
+            this.panel3.Controls.Add(this.btnPets);
+            this.panel3.Controls.Add(this.btnAppointments);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel3.Location = new System.Drawing.Point(0, 100);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(227, 600);
+            this.panel3.TabIndex = 8;
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.panel4);
+            this.panel2.Controls.Add(this.lblTitle);
+            this.panel2.Controls.Add(this.pictureBoxLogo);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(227, 100);
+            this.panel2.TabIndex = 0;
+            // 
+            // panel4
+            // 
+            this.panel4.Location = new System.Drawing.Point(226, 3);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(207, 72);
+            this.panel4.TabIndex = 8;
+            // 
+            // lblTitle
+            // 
+            this.lblTitle.AutoSize = true;
+            this.lblTitle.Font = new System.Drawing.Font("Consolas", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitle.Location = new System.Drawing.Point(73, 33);
+            this.lblTitle.Name = "lblTitle";
+            this.lblTitle.Size = new System.Drawing.Size(130, 24);
+            this.lblTitle.TabIndex = 1;
+            this.lblTitle.Text = "Vet Clinic";
+            // 
+            // pictureBoxLogo
+            // 
+            this.pictureBoxLogo.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxLogo.Image")));
+            this.pictureBoxLogo.Location = new System.Drawing.Point(3, 12);
+            this.pictureBoxLogo.Name = "pictureBoxLogo";
+            this.pictureBoxLogo.Size = new System.Drawing.Size(64, 63);
+            this.pictureBoxLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxLogo.TabIndex = 0;
+            this.pictureBoxLogo.TabStop = false;
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.Pink;
+            this.panel1.Controls.Add(this.panel3);
+            this.panel1.Controls.Add(this.panel2);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(227, 700);
+            this.panel1.TabIndex = 7;
+            // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.Color.Linen;
+            this.panel5.Controls.Add(this.pictureBox2);
+            this.panel5.Controls.Add(this.pictureBox1);
+            this.panel5.Location = new System.Drawing.Point(226, 0);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(974, 70);
+            this.panel5.TabIndex = 8;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(3, 13);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(47, 44);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 9;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(907, 4);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(64, 63);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 9;
+            this.pictureBox1.TabStop = false;
+            // 
+            // panelContainer
+            // 
+            this.panelContainer.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panelContainer.Location = new System.Drawing.Point(227, 65);
+            this.panelContainer.Name = "panelContainer";
+            this.panelContainer.Size = new System.Drawing.Size(973, 635);
+            this.panelContainer.TabIndex = 9;
+            // 
+            // MainForm
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(1200, 700);
+            this.Controls.Add(this.panelContainer);
+            this.Controls.Add(this.panel5);
+            this.Controls.Add(this.panel1);
+            this.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Margin = new System.Windows.Forms.Padding(4);
+            this.Name = "MainForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Vet Clinic";
+            this.panel3.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).EndInit();
+            this.panel1.ResumeLayout(false);
+            this.panel5.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Button btnOwners;
+        private System.Windows.Forms.Button btnPets;
+        private System.Windows.Forms.Button btnAppointments;
+        private System.Windows.Forms.Button btnInvoices;
+        private System.Windows.Forms.Button btnMedicines;
+        private System.Windows.Forms.Button btnVaccinations;
+        private System.Windows.Forms.Button btnDashboard;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Label lblTitle;
+        private System.Windows.Forms.PictureBox pictureBoxLogo;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Panel panelContainer;
+    }
+}
+

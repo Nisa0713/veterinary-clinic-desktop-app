@@ -1,0 +1,209 @@
+﻿namespace VetClinicApp
+{
+    partial class InvoiceForm
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(InvoiceForm));
+            this.cmbAppointments = new System.Windows.Forms.ComboBox();
+            this.txtTotalAmount = new System.Windows.Forms.TextBox();
+            this.btnCreateInvoice = new System.Windows.Forms.Button();
+            this.dgvInvoices = new System.Windows.Forms.DataGridView();
+            this.lblPet = new System.Windows.Forms.Label();
+            this.lblAmount = new System.Windows.Forms.Label();
+            this.cmbPaymentStatus = new System.Windows.Forms.ComboBox();
+            this.lblPaymentStatus = new System.Windows.Forms.Label();
+            this.dtpPaymentDate = new System.Windows.Forms.DateTimePicker();
+            this.lblPaymentDate = new System.Windows.Forms.Label();
+            this.btnDeleteInvoice = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvInvoices)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // cmbAppointments
+            // 
+            this.cmbAppointments.Font = new System.Drawing.Font("Consolas", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbAppointments.FormattingEnabled = true;
+            this.cmbAppointments.Location = new System.Drawing.Point(50, 98);
+            this.cmbAppointments.Name = "cmbAppointments";
+            this.cmbAppointments.Size = new System.Drawing.Size(192, 26);
+            this.cmbAppointments.TabIndex = 0;
+            // 
+            // txtTotalAmount
+            // 
+            this.txtTotalAmount.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTotalAmount.Location = new System.Drawing.Point(50, 169);
+            this.txtTotalAmount.Name = "txtTotalAmount";
+            this.txtTotalAmount.Size = new System.Drawing.Size(192, 26);
+            this.txtTotalAmount.TabIndex = 1;
+            // 
+            // btnCreateInvoice
+            // 
+            this.btnCreateInvoice.BackColor = System.Drawing.Color.Pink;
+            this.btnCreateInvoice.FlatAppearance.BorderColor = System.Drawing.Color.Beige;
+            this.btnCreateInvoice.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCreateInvoice.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCreateInvoice.Image = ((System.Drawing.Image)(resources.GetObject("btnCreateInvoice.Image")));
+            this.btnCreateInvoice.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnCreateInvoice.Location = new System.Drawing.Point(55, 345);
+            this.btnCreateInvoice.Name = "btnCreateInvoice";
+            this.btnCreateInvoice.Size = new System.Drawing.Size(176, 35);
+            this.btnCreateInvoice.TabIndex = 2;
+            this.btnCreateInvoice.Text = "   Create Invoice";
+            this.btnCreateInvoice.UseVisualStyleBackColor = false;
+            this.btnCreateInvoice.Click += new System.EventHandler(this.btnCreateInvoice_Click);
+            // 
+            // dgvInvoices
+            // 
+            this.dgvInvoices.BackgroundColor = System.Drawing.Color.Beige;
+            this.dgvInvoices.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvInvoices.GridColor = System.Drawing.Color.Pink;
+            this.dgvInvoices.Location = new System.Drawing.Point(308, 66);
+            this.dgvInvoices.Name = "dgvInvoices";
+            this.dgvInvoices.Size = new System.Drawing.Size(466, 355);
+            this.dgvInvoices.TabIndex = 3;
+            // 
+            // lblPet
+            // 
+            this.lblPet.AutoSize = true;
+            this.lblPet.BackColor = System.Drawing.Color.Transparent;
+            this.lblPet.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPet.Location = new System.Drawing.Point(47, 76);
+            this.lblPet.Name = "lblPet";
+            this.lblPet.Size = new System.Drawing.Size(117, 19);
+            this.lblPet.TabIndex = 4;
+            this.lblPet.Text = "Appointment:";
+            // 
+            // lblAmount
+            // 
+            this.lblAmount.AutoSize = true;
+            this.lblAmount.BackColor = System.Drawing.Color.Transparent;
+            this.lblAmount.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAmount.Location = new System.Drawing.Point(47, 147);
+            this.lblAmount.Name = "lblAmount";
+            this.lblAmount.Size = new System.Drawing.Size(126, 19);
+            this.lblAmount.TabIndex = 5;
+            this.lblAmount.Text = "Total Amount:";
+            // 
+            // cmbPaymentStatus
+            // 
+            this.cmbPaymentStatus.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbPaymentStatus.FormattingEnabled = true;
+            this.cmbPaymentStatus.Items.AddRange(new object[] {
+            "Paid",
+            "Unpaid"});
+            this.cmbPaymentStatus.Location = new System.Drawing.Point(50, 244);
+            this.cmbPaymentStatus.Name = "cmbPaymentStatus";
+            this.cmbPaymentStatus.Size = new System.Drawing.Size(192, 27);
+            this.cmbPaymentStatus.TabIndex = 6;
+            // 
+            // lblPaymentStatus
+            // 
+            this.lblPaymentStatus.AutoSize = true;
+            this.lblPaymentStatus.BackColor = System.Drawing.Color.Transparent;
+            this.lblPaymentStatus.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPaymentStatus.Location = new System.Drawing.Point(47, 222);
+            this.lblPaymentStatus.Name = "lblPaymentStatus";
+            this.lblPaymentStatus.Size = new System.Drawing.Size(144, 19);
+            this.lblPaymentStatus.TabIndex = 7;
+            this.lblPaymentStatus.Text = "Payment Status:";
+            // 
+            // dtpPaymentDate
+            // 
+            this.dtpPaymentDate.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtpPaymentDate.Location = new System.Drawing.Point(51, 305);
+            this.dtpPaymentDate.Name = "dtpPaymentDate";
+            this.dtpPaymentDate.Size = new System.Drawing.Size(191, 22);
+            this.dtpPaymentDate.TabIndex = 8;
+            // 
+            // lblPaymentDate
+            // 
+            this.lblPaymentDate.AutoSize = true;
+            this.lblPaymentDate.BackColor = System.Drawing.Color.Transparent;
+            this.lblPaymentDate.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPaymentDate.Location = new System.Drawing.Point(51, 283);
+            this.lblPaymentDate.Name = "lblPaymentDate";
+            this.lblPaymentDate.Size = new System.Drawing.Size(126, 19);
+            this.lblPaymentDate.TabIndex = 9;
+            this.lblPaymentDate.Text = "Payment Date:";
+            // 
+            // btnDeleteInvoice
+            // 
+            this.btnDeleteInvoice.BackColor = System.Drawing.Color.Pink;
+            this.btnDeleteInvoice.FlatAppearance.BorderColor = System.Drawing.Color.Beige;
+            this.btnDeleteInvoice.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDeleteInvoice.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDeleteInvoice.Image = ((System.Drawing.Image)(resources.GetObject("btnDeleteInvoice.Image")));
+            this.btnDeleteInvoice.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnDeleteInvoice.Location = new System.Drawing.Point(55, 386);
+            this.btnDeleteInvoice.Name = "btnDeleteInvoice";
+            this.btnDeleteInvoice.Size = new System.Drawing.Size(176, 35);
+            this.btnDeleteInvoice.TabIndex = 10;
+            this.btnDeleteInvoice.Text = "   Delete Invoice";
+            this.btnDeleteInvoice.UseVisualStyleBackColor = false;
+            this.btnDeleteInvoice.Click += new System.EventHandler(this.btnDeleteInvoice_Click);
+            // 
+            // InvoiceForm
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnDeleteInvoice);
+            this.Controls.Add(this.lblPaymentDate);
+            this.Controls.Add(this.dtpPaymentDate);
+            this.Controls.Add(this.lblPaymentStatus);
+            this.Controls.Add(this.cmbPaymentStatus);
+            this.Controls.Add(this.lblAmount);
+            this.Controls.Add(this.lblPet);
+            this.Controls.Add(this.dgvInvoices);
+            this.Controls.Add(this.btnCreateInvoice);
+            this.Controls.Add(this.txtTotalAmount);
+            this.Controls.Add(this.cmbAppointments);
+            this.Name = "InvoiceForm";
+            this.Text = "InvoiceForm";
+            this.Load += new System.EventHandler(this.InvoiceForm_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvInvoices)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.ComboBox cmbAppointments;
+        private System.Windows.Forms.TextBox txtTotalAmount;
+        private System.Windows.Forms.Button btnCreateInvoice;
+        private System.Windows.Forms.DataGridView dgvInvoices;
+        private System.Windows.Forms.Label lblPet;
+        private System.Windows.Forms.Label lblAmount;
+        private System.Windows.Forms.ComboBox cmbPaymentStatus;
+        private System.Windows.Forms.Label lblPaymentStatus;
+        private System.Windows.Forms.DateTimePicker dtpPaymentDate;
+        private System.Windows.Forms.Label lblPaymentDate;
+        private System.Windows.Forms.Button btnDeleteInvoice;
+    }
+}

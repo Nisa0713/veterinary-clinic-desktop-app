@@ -1,0 +1,230 @@
+﻿namespace VetClinicApp
+{
+    partial class PetForm
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PetForm));
+            this.cmbOwners = new System.Windows.Forms.ComboBox();
+            this.txtPetName = new System.Windows.Forms.TextBox();
+            this.btnAddPet = new System.Windows.Forms.Button();
+            this.dgvPets = new System.Windows.Forms.DataGridView();
+            this.lblOwners = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.lblSpecies = new System.Windows.Forms.Label();
+            this.txtSpecies = new System.Windows.Forms.TextBox();
+            this.lblBreed = new System.Windows.Forms.Label();
+            this.txtBreed = new System.Windows.Forms.TextBox();
+            this.dtpBirthDate = new System.Windows.Forms.DateTimePicker();
+            this.lblBirthDay = new System.Windows.Forms.Label();
+            this.btnDeletePet = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvPets)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // cmbOwners
+            // 
+            this.cmbOwners.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbOwners.FormattingEnabled = true;
+            this.cmbOwners.Location = new System.Drawing.Point(42, 76);
+            this.cmbOwners.Name = "cmbOwners";
+            this.cmbOwners.Size = new System.Drawing.Size(173, 27);
+            this.cmbOwners.TabIndex = 0;
+            // 
+            // txtPetName
+            // 
+            this.txtPetName.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPetName.Location = new System.Drawing.Point(42, 141);
+            this.txtPetName.Name = "txtPetName";
+            this.txtPetName.Size = new System.Drawing.Size(173, 26);
+            this.txtPetName.TabIndex = 1;
+            // 
+            // btnAddPet
+            // 
+            this.btnAddPet.BackColor = System.Drawing.Color.Pink;
+            this.btnAddPet.FlatAppearance.BorderColor = System.Drawing.Color.Beige;
+            this.btnAddPet.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAddPet.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddPet.Image = ((System.Drawing.Image)(resources.GetObject("btnAddPet.Image")));
+            this.btnAddPet.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnAddPet.Location = new System.Drawing.Point(46, 360);
+            this.btnAddPet.Name = "btnAddPet";
+            this.btnAddPet.Size = new System.Drawing.Size(140, 38);
+            this.btnAddPet.TabIndex = 2;
+            this.btnAddPet.Text = "   Add Pet";
+            this.btnAddPet.UseVisualStyleBackColor = false;
+            this.btnAddPet.Click += new System.EventHandler(this.btnAddPet_Click);
+            // 
+            // dgvPets
+            // 
+            this.dgvPets.BackgroundColor = System.Drawing.Color.Beige;
+            this.dgvPets.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvPets.GridColor = System.Drawing.Color.Pink;
+            this.dgvPets.Location = new System.Drawing.Point(249, 76);
+            this.dgvPets.Name = "dgvPets";
+            this.dgvPets.Size = new System.Drawing.Size(549, 362);
+            this.dgvPets.TabIndex = 3;
+            // 
+            // lblOwners
+            // 
+            this.lblOwners.AutoSize = true;
+            this.lblOwners.BackColor = System.Drawing.Color.Transparent;
+            this.lblOwners.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblOwners.Location = new System.Drawing.Point(38, 54);
+            this.lblOwners.Name = "lblOwners";
+            this.lblOwners.Size = new System.Drawing.Size(108, 19);
+            this.lblOwners.TabIndex = 4;
+            this.lblOwners.Text = "Owner Name:";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(42, 119);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(90, 19);
+            this.label1.TabIndex = 5;
+            this.label1.Text = "Pet Name:";
+            // 
+            // lblSpecies
+            // 
+            this.lblSpecies.AutoSize = true;
+            this.lblSpecies.BackColor = System.Drawing.Color.Transparent;
+            this.lblSpecies.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSpecies.Location = new System.Drawing.Point(42, 185);
+            this.lblSpecies.Name = "lblSpecies";
+            this.lblSpecies.Size = new System.Drawing.Size(117, 19);
+            this.lblSpecies.TabIndex = 7;
+            this.lblSpecies.Text = "Pet Species:";
+            // 
+            // txtSpecies
+            // 
+            this.txtSpecies.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSpecies.Location = new System.Drawing.Point(42, 207);
+            this.txtSpecies.Name = "txtSpecies";
+            this.txtSpecies.Size = new System.Drawing.Size(173, 26);
+            this.txtSpecies.TabIndex = 6;
+            // 
+            // lblBreed
+            // 
+            this.lblBreed.AutoSize = true;
+            this.lblBreed.BackColor = System.Drawing.Color.Transparent;
+            this.lblBreed.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBreed.Location = new System.Drawing.Point(42, 244);
+            this.lblBreed.Name = "lblBreed";
+            this.lblBreed.Size = new System.Drawing.Size(117, 19);
+            this.lblBreed.TabIndex = 9;
+            this.lblBreed.Text = "Pet Species:";
+            // 
+            // txtBreed
+            // 
+            this.txtBreed.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBreed.Location = new System.Drawing.Point(42, 266);
+            this.txtBreed.Name = "txtBreed";
+            this.txtBreed.Size = new System.Drawing.Size(173, 26);
+            this.txtBreed.TabIndex = 8;
+            // 
+            // dtpBirthDate
+            // 
+            this.dtpBirthDate.CalendarFont = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtpBirthDate.Location = new System.Drawing.Point(42, 330);
+            this.dtpBirthDate.Name = "dtpBirthDate";
+            this.dtpBirthDate.Size = new System.Drawing.Size(173, 20);
+            this.dtpBirthDate.TabIndex = 10;
+            // 
+            // lblBirthDay
+            // 
+            this.lblBirthDay.AutoSize = true;
+            this.lblBirthDay.BackColor = System.Drawing.Color.Transparent;
+            this.lblBirthDay.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBirthDay.Location = new System.Drawing.Point(38, 308);
+            this.lblBirthDay.Name = "lblBirthDay";
+            this.lblBirthDay.Size = new System.Drawing.Size(144, 19);
+            this.lblBirthDay.TabIndex = 11;
+            this.lblBirthDay.Text = "Pet Birth Date:";
+            // 
+            // btnDeletePet
+            // 
+            this.btnDeletePet.BackColor = System.Drawing.Color.Pink;
+            this.btnDeletePet.FlatAppearance.BorderColor = System.Drawing.Color.Beige;
+            this.btnDeletePet.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDeletePet.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDeletePet.Image = ((System.Drawing.Image)(resources.GetObject("btnDeletePet.Image")));
+            this.btnDeletePet.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnDeletePet.Location = new System.Drawing.Point(46, 400);
+            this.btnDeletePet.Name = "btnDeletePet";
+            this.btnDeletePet.Size = new System.Drawing.Size(140, 38);
+            this.btnDeletePet.TabIndex = 12;
+            this.btnDeletePet.Text = "   Delete Pet";
+            this.btnDeletePet.UseVisualStyleBackColor = false;
+            this.btnDeletePet.Click += new System.EventHandler(this.btnDeletePet_Click);
+            // 
+            // PetForm
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnDeletePet);
+            this.Controls.Add(this.lblBirthDay);
+            this.Controls.Add(this.dtpBirthDate);
+            this.Controls.Add(this.lblBreed);
+            this.Controls.Add(this.txtBreed);
+            this.Controls.Add(this.lblSpecies);
+            this.Controls.Add(this.txtSpecies);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblOwners);
+            this.Controls.Add(this.dgvPets);
+            this.Controls.Add(this.btnAddPet);
+            this.Controls.Add(this.txtPetName);
+            this.Controls.Add(this.cmbOwners);
+            this.Name = "PetForm";
+            this.Text = "PetForm";
+            this.Load += new System.EventHandler(this.PetForm_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvPets)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.ComboBox cmbOwners;
+        private System.Windows.Forms.TextBox txtPetName;
+        private System.Windows.Forms.Button btnAddPet;
+        private System.Windows.Forms.DataGridView dgvPets;
+        private System.Windows.Forms.Label lblOwners;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblSpecies;
+        private System.Windows.Forms.TextBox txtSpecies;
+        private System.Windows.Forms.Label lblBreed;
+        private System.Windows.Forms.TextBox txtBreed;
+        private System.Windows.Forms.DateTimePicker dtpBirthDate;
+        private System.Windows.Forms.Label lblBirthDay;
+        private System.Windows.Forms.Button btnDeletePet;
+    }
+}
